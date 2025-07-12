@@ -44,7 +44,7 @@ The application handles exceptions gracefully, especially during file operations
 2. **JavaFX Setup**:
    - Ensure you have JDK 8 or higher installed.
    - Download the JavaFX SDK from the official [JavaFX website](https://openjfx.io/).
-   - Extract the JavaFX SDK to a directory (e.g., `C:\Program Files\Java\javafx-sdk-22.0.2`).
+   - Extract the JavaFX SDK to a directory (e.g., `C:\openjfx-24.0.1_windows-x64_bin-sdk\javafx-sdk-24.0.1`).
 
 3. **Compile the Application**:
    - Open a command prompt or terminal.
