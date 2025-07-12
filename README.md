@@ -39,7 +39,7 @@ The application handles exceptions gracefully, especially during file operations
 
 1. **Download and Unzip**:
    - Download the provided ZIP file containing the application.
-   - Unzip the file to a directory of your choice (e.g., `C:\javaprg\source\com`).
+   - Unzip the file to a directory of your choice (e.g., `C:\source`).
 
 2. **JavaFX Setup**:
    - Ensure you have JDK 8 or higher installed.
@@ -48,16 +48,16 @@ The application handles exceptions gracefully, especially during file operations
 
 3. **Compile the Application**:
    - Open a command prompt or terminal.
-   - Navigate to the directory where the Java files are located (e.g., `C:\javaprg\source\com\taskmanager`).
+   - Navigate to the directory where the Java files are located (e.g., `C:\source`).
    - Run the following command to compile the Java files:
      ```bash
-     javac --module-path "C:\Program Files\Java\javafx-sdk-22.0.2\lib" --add-modules javafx.controls,javafx.fxml *.java
+     javac --module-path "C:\openjfx-24.0.1_windows-x64_bin-sdk\javafx-sdk-24.0.1\lib" --add-modules javafx.controls com\taskmanager\*.java
      ```
 
 4. **Run the Application**:
    - After successful compilation, run the application using the following command:
      ```bash
-     java --module-path "C:\Program Files\Java\javafx-sdk-22.0.2\lib" --add-modules javafx.controls,javafx.fxml com.taskmanager.TaskHabitManager
+     java --module-path "C:\openjfx-24.0.1_windows-x64_bin-sdk\javafx-sdk-24.0.1\lib" --add-modules javafx.controls com.taskmanager.TaskHabitManager
      ```
      
 **Note**: You can change the path to the JavaFX SDK and application directory if you have it stored in a different location.
