@@ -1,4 +1,4 @@
-# taskmanager
+# Taskmanager
 ## Overview
 
 The Task Manager and Habit Tracker Application is a JavaFX desktop app with enhanced CSS styling designed to help users manage tasks and habits efficiently. It features user authentication, task and habit management, collaboration, and community feedback.
