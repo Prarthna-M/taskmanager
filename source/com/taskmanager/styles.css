@@ -1,0 +1,53 @@
+.dialog-pane {
+    -fx-background-color: rgba(255, 209, 220, 0.15);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.root {
+    -fx-background-color: rgba(255, 209, 220, 0.15);
+}
+
+.button {
+    -fx-background-color: rgba(255, 209, 220, 0.5);
+    -fx-text-fill: black;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: rgba(255, 209, 220, 0.6);
+    -fx-border-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.6), 5, 0, 0, 0);
+}
+
+/* Pressed effect */
+.button:pressed {
+    -fx-background-color: rgba(255, 209, 220, 0.7);
+    -fx-border-color: white;
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 0);
+}
+
+/* Semi-transparent white background for text fields */
+.text-field {
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-prompt-text-fill: rgba(0, 0, 0, 0.6); /* Makes placeholder text slightly darker */
+}
+
+.text-area {
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+    -fx-control-inner-background: rgba(255, 255, 255, 0.4);
+}
+
+.combo-box {
+    -fx-background-color: rgba(255, 255, 255, 0.15);
+}
+
+.list-view, .table-view {
+    -fx-background-color: rgba(255, 255, 255, 0.15);
+}
+
+.label {
+    -fx-text-fill: black;
+}
